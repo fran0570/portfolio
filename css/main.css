@@ -1,0 +1,39 @@
+/* ************************************************************* */
+/*  Final Project – Web Portfolio - Menu CSS */
+/* ************************************************************* */
+:root {
+    /* costum property/variable */
+    /* colors */
+    /* temporary place older colors */
+    --primary-color: black;
+    --primary-color-light: gray;
+    --secondary-color: Blue;
+    --secondary-color-light: Blue;
+    --highlight-color: yellow;
+    --white-color: white;
+    /* spacing */
+    --paddings: 2rem;
+    --margins: 1rem;
+}
+
+/* loading fonts */
+/* @font-face {
+    font-family: "Athena Rustic"; src: url('https://fran0570.github.io/mtm6201-midterm/fonts/athena-rustic-font/Athena Rustic.ttf');
+}
+@font-face {
+    font-family: "Bite _ Bullet"; src: url('https://fran0570.github.io/mtm6201-midterm/fonts/bite-the-bullet/Bite _ Bullet.ttf');
+} */
+
+/* Main styling for entire site */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* body {
+} */
