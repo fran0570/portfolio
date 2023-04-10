@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="css/reset.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/reset.css">
+    <!-- Font Awesome link for icons -->
+    <script src="https://kit.fontawesome.com/84469dfcbe.js" crossorigin="anonymous"></script>
+    <!-- css stylesheet link -->
     <link rel="stylesheet" href="css/main.css">
     <title>Final Project - Web Portfolio MTM6201_030</title>
 </head>
@@ -39,13 +43,16 @@
               </div>
             </div>
           </nav>
+          <!-- company logo -->
           <div class="hero container-fluid py-5">
             <h1 class="display-1 fw-bold">HEART <br>-FELT <br> STUDIO</h1>
             <img src="images/cropped-heartfelt-logo-pink.png" alt="" class="company-logo">
           </div>
     </header>
+    <!-- fold -->
     <main>
-        <section class="container-services container-fluid">
+        <!-- promotional section 1 our services -->
+        <section class="container-services container-fluid" role="region">
             <div class="container">
                 <div class="title-bar">
                     <h1 class="service-web display-1">WEB</h1>
@@ -60,9 +67,9 @@
                     <h1 class="service-graphix display-1">GRAPHI</h1>
                 </div>
             </div>
-            
         </section>
-        <section class="container-poster container-fluid">
+        <!-- promotional section 2 -->
+        <section class="container-poster container-fluid" role="region">
             <div class="poster-text">
                 <h1 class="display-1">MOBILE</h1>
                 <h1 class="display-1">PRINT</h1>
@@ -75,10 +82,29 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    
+    <!-- main page footer with address, social media, and copyright -->
+    <footer class="container-footer container-fluid"  role="contentinfo">
+        <div><h2>gray's taco</h2></div>
+        <!-- Add Schema improving the way search engines read and represent your page -->
+        <div><p itemscope="address" itemtype="https://schema.org/PostalAddress">
+            <span>We are located at:</span><br>
+            <span itemprop="streetAddress">333 Dalhousie St,</span><br>
+            <span itemprop="addressLocality">Ottawa, </span>ON<br>
+            <span itemprop="addressCountry">Canada</span>
+            <span intemprop="postalCode">K1N 7G1</span><br> &copy; HEARTFELT STUDIO A FRANKHEART COMPANY </p></div>
+        
+        <div class="social-link">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook" role="link" aria-label="facebook link"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram" role="link" aria-label="instagram link"></i></a>
+            <a href="https://twitter.com/home?lang=en"><i class="fa-brands fa-square-twitter" role="link" aria-label="twitter link"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-square-youtube" role="link" aria-label="youtube link"></i></a>
+            <a href="https://www.whatsapp.com/"><i class="fa-brands fa-square-whatsapp" role="link" aria-label="whatsapp link"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" role="link" aria-label="linkedin link"></i></a>
+            <a href="https://www.pinterest.ca/"><i class="fa fa-pinterest-square" role="link" aria-label="pinterest link"></i></a>
+            <a href="https://www.flickr.com/"><i class="fa fa-flickr" role="link" aria-label="flickr link"></i></a>
+        </div>
     </footer>
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
