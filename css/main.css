@@ -37,3 +37,13 @@ html {
 
 /* body {
 } */
+
+.navbar {
+    transform-origin: left bottom;
+    transform: skewY(-3deg);
+}
+
+.hero {
+    transform-origin: left bottom;
+    transform: skewY(-3deg);
+}
