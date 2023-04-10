@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Final Project - Web Portfolio MTM6201_030</title>
@@ -16,14 +19,37 @@
     </ul>
     <header class="site-header" aria-details="site banner">
         <!-- Website navigation bar -->
-        <nav class="navbar" id="nav" role="navigation" aria-label="main site navigation">
-            <ul>
-                <li class="button-home"><a role="button" aria-label="Home Page" href="index.html" target="_self">Home</a></li>
-                <li class="button-Work"><a role="button" aria-label="Work/Portfolio Page" href="work.html" target="_self">Work & Portfolio</a></li>
-                <li class="button-about"><a role="button" aria-label="About Us Page" href="about.html" target="_self">About Us</a></li>
-                <li class="button-contact"><a role="button" aria-label="Contact Us Page" href="contact.html" target="_self">Contact Us</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav" role="navigation" aria-label="main site navigation">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav grid gap-5">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" aria-label="Home Page" href="index.html" target="_self">HOME <br> HOME PAGE </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-label="Work & Portfolio Page" href="work.html" target="_self">MY WORK <br> PORTFOLIO PAGE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-label="About Us Page" href="about.html" target="_self">ABOUT US <br> ABOUT PAGE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-label="Contact Us Page" href="contact.html" target="_self">CONTACT US <br> CONTACT PAGE</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="hero container-fluid py-5">
+            <h1 class="display-1 fw-bold">HEART <br>-FELT <br> STUDIO</h1>
+            <img src="images/cropped-heartfelt-logo-pink.png" alt="" class="company-logo">
+          </div>
     </header>
+    <main>
+
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 </html>
