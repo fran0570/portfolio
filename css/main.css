@@ -55,9 +55,13 @@ html {
 .title-bar-web, .title-bar-media {
     transform-origin: left bottom;
     transform: skewY(-3deg);
+
+    background-image: url("/images/maggy-taunting-red-sun.jpg");
 }
 
 .title-bar-code, .title-bar-graph {
     transform-origin: left bottom;
     transform: skewY(3deg);
+    
+    background-image: url("/images/maggy-taunting-red-sun.jpg");
 }
