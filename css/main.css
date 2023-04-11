@@ -47,3 +47,17 @@ html {
     transform-origin: left bottom;
     transform: skewY(-3deg);
 }
+
+.hero h1 {
+    font-size: 10rem;
+}
+
+.title-bar-web, .title-bar-media {
+    transform-origin: left bottom;
+    transform: skewY(-3deg);
+}
+
+.title-bar-code, .title-bar-graph {
+    transform-origin: left bottom;
+    transform: skewY(3deg);
+}

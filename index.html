@@ -23,59 +23,65 @@
     </ul>
     <header class="site-header" aria-details="site banner">
         <!-- Website navigation bar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav" role="navigation" aria-label="main site navigation">
+        <nav class="navbar navbar-expand-lg bg-dark" id="nav" role="navigation" aria-label="main site navigation">
             <div class="container-fluid">
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav grid gap-5">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" aria-label="Home Page" href="index.html" target="_self">HOME <br> HOME PAGE </a>
+                    <a class="nav-link text-bg-dark active" aria-current="page" aria-label="Home Page" href="index.html" target="_self">HOME <br> HOME PAGE </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-label="Work & Portfolio Page" href="work.html" target="_self">MY WORK <br> PORTFOLIO PAGE</a>
+                    <a class="nav-link text-bg-dark" aria-label="Work & Portfolio Page" href="work.html" target="_self">MY WORK <br> PORTFOLIO PAGE</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-label="About Us Page" href="about.html" target="_self">ABOUT US <br> ABOUT PAGE</a>
+                    <a class="nav-link text-bg-dark" aria-label="About Us Page" href="about.html" target="_self">ABOUT US <br> ABOUT PAGE</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-label="Contact Us Page" href="contact.html" target="_self">CONTACT US <br> CONTACT PAGE</a>
+                    <a class="nav-link text-bg-dark" aria-label="Contact Us Page" href="contact.html" target="_self">CONTACT US <br> CONTACT PAGE</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
           <!-- company logo -->
-          <div class="hero container-fluid py-5">
-            <h1 class="display-1 fw-bold">HEART <br>-FELT <br> STUDIO</h1>
-            <img src="images/cropped-heartfelt-logo-pink.png" alt="" class="company-logo">
+          <div class="hero container py-5">
+            <div class="row">
+                <div class="hero-text col">
+                    <h1 class="display-1 fw-bold">HEART <br>-FELT <br> STUDIO</h1>
+                </div>
+                <div class="heart-logo col">
+                    <img src="images/cropped-heartfelt-logo-pink.png" alt="" class="company-logo">
+                </div>
+            </div>
           </div>
     </header>
     <!-- fold -->
     <main>
         <!-- promotional section 1 our services -->
-        <section class="container-services container-fluid" role="region">
-            <div class="wrapper">
-                <div class="title-bar">
+        <section class="container-services" role="region">
+            <div class="wrapper d-flex flex-column">
+                <div class="title-bar-web w-75 bg-danger">
                     <h1 class="service-web display-1">WEB</h1>
                 </div>
-                <div class="title-bar">
-                    <h1 class="service-coding display-1">CODING</h1>
+                <div class="title-bar-code w-75 align-self-end bg-danger">
+                    <h1 class="service-coding text-end display-1">CODING</h1>
                 </div>
-                <div class="title-bar">
+                <div class="title-bar-media w-75 mt-5 bg-danger">
                     <h1 class="service-media display-1">MEDIA</h1>
                 </div>
-                <div class="title-bar">
-                    <h1 class="service-graphix display-1">GRAPHI</h1>
+                <div class="title-bar-graph w-75 align-self-end bg-danger">
+                    <h1 class="service-graphix text-end display-1">GRAPHI</h1>
                 </div>
             </div>
         </section>
         <!-- promotional section 2 -->
-        <section class="container-poster container-fluid" role="region">
+        <section class="container-poster mt-5 container-fluid" role="region">
             <div class="wrapper-phone-img">
                 <img src="" alt="">
             </div>
             <div class="poster-text">
-                <h1 class="display-1">MOBILE</h1>
-                <h1 class="display-1">PRINT</h1>
+                <h1 class="text-end fs-1 fw-bold">MOBILE</h1>
+                <h1 class="text-end fs-1 fw-light">PRINT</h1>
             </div>
             <div class="wrapper-x-img">
                 <img src="" alt="">
@@ -87,7 +93,7 @@
     </main>
     
     <!-- main page footer with address, social media, and copyright -->
-    <footer class="container-footer container-fluid"  role="contentinfo">
+    <footer class="container-footer container-fluid text-end"  role="contentinfo">
         <div><h2>HEARTFELT STUDIO</h2></div>
         <!-- Add Schema improving the way search engines read and represent your page -->
         <div><p itemscope="address" itemtype="https://schema.org/PostalAddress">
@@ -108,8 +114,8 @@
             <a href="https://www.flickr.com/"><i class="fa fa-flickr" role="link" aria-label="flickr link"></i></a>
         </div>
     </footer>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
 </body>
 </html>
