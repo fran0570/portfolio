@@ -1,6 +1,15 @@
 /* ************************************************************* */
 /*  Final Project – Web Portfolio - Menu CSS */
 /* ************************************************************* */
+
+/* loading fonts */
+@font-face {
+    font-family: 'ant'; src: url('https://fran0570.github.io/portfolio/fonts/AntrySans_PERSONAL_USE_ONLY.otf');
+}
+@font-face {
+    font-family: 'big_noodle_titling'; src: url('https://fran0570.github.io/portfolio/fonts/big_noodle_titling.ttf');
+}
+
 :root {
     /* costum property/variable */
     /* colors */
@@ -14,15 +23,12 @@
     /* spacing */
     --paddings: 2rem;
     --margins: 1rem;
-}
 
-/* loading fonts */
-/* @font-face {
-    font-family: "Athena Rustic"; src: url('https://fran0570.github.io/mtm6201-midterm/fonts/athena-rustic-font/Athena Rustic.ttf');
+    /* --bs-blue: red; */
+    --bs-body-font-family: 'big_noodle_titling';
+    --bs-body-font-size: 5rem;
+    
 }
-@font-face {
-    font-family: "Bite _ Bullet"; src: url('https://fran0570.github.io/mtm6201-midterm/fonts/bite-the-bullet/Bite _ Bullet.ttf');
-} */
 
 /* Main styling for entire site */
 html {
@@ -41,7 +47,13 @@ html {
 .navbar {
     transform-origin: left bottom;
     transform: skewY(-3deg);
+
+    /* background-color: var(--bs-primary-rgb) !important; */
 }
+
+/* .nav-link:hover {
+    background-color: var(--bs-blue) !important;
+} */
 
 .hero {
     transform-origin: left bottom;
