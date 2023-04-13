@@ -1,6 +1,16 @@
 # portfolio
 # Final Project – Web Portfolio for 23W_MTM6201_030 Web Development II
 
+## TODO LIST
+### Main Page
+- [ ] try using maggy img in red with different blending mode
+- [ ] fix bottom of page; page length do to image repositioning
+- [ ] create two-img
+- [ ] change footer background image color from black to dark
+- [ ] resize for different screens/ make media queries
+### Work Page
+### About Page
+### Contact Page
 
 # Markdown Syntax
 # H1
