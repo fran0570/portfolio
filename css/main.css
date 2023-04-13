@@ -26,7 +26,6 @@
     --paddings: 2rem;
     --margins: 1rem;
 
-    /* --bs-blue: red; */
     --bs-body-font-family: 'big_noodle_titling';
     --bs-body-font-size: 32px;
     
@@ -46,6 +45,31 @@ html {
 /* body {
 } */
 
+/* ************************************************************* */
+/* Skip button styling */
+/* ************************************************************* */
+/* this will improve the user experience and accessibility */
+.access-skip-links {
+    margin: 0;
+    padding: 0;
+}
+  
+.access-skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: .5em 1em;
+    z-index: 99;
+}
+  
+.access-skip-links a:focus {
+    top: 0;
+    left: 60%;
+}
+
+/* ************************************************************* */
+/*  Navigation Bar Styling
+    Going from one column to one row with screen size */
+/* ************************************************************* */
 .navbar {
     transform-origin: left bottom;
     transform: skewY(-3deg);
@@ -57,15 +81,40 @@ html {
     background-color: var(--bs-blue) !important;
 } */
 
+/* .nav-item {
+    margin-bottom: 10px !important;
+} */
+.nav-button {
+    width: 992px !important;
+    text-align: left;
+}
+
+/* -------hero text formating------- */
 .hero {
     transform-origin: left bottom;
     transform: skewY(-3deg);
 }
 
-h1 {
-    font-size: 230px !important;
+.hero-text {
+    font-family: 'AntrySans';
 }
 
+.heart {
+    line-height: 80% !important;
+    font-size: 40vw !important;
+}
+
+.felt {
+    line-height: 80% !important;
+    font-size: 35vw !important;
+}
+
+.studio {
+    line-height: 80% !important;
+    font-size: 37vw !important;
+}
+
+/* -------text formating------- */
 h2 {
     font-size: 150px !important;
 }
@@ -82,12 +131,11 @@ p {
     font-size: 20px !important;
 }
 
-
 .logo {
     position: absolute;
-    top: 400px;
+    top: 100px;
     left: 250px;
-    z-index: -1;
+    z-index: 1;
 }
 
 .title-bar-web, .title-bar-media {
@@ -106,8 +154,25 @@ p {
 
 .maggy-img {
     position: absolute;
-    top: 1600px;
+    top: 950px;
     z-index: -1;
+}
+
+.iphone {
+    position: absolute;
+    left: -60px;
+    top: 1700px;
+}
+
+.poster-text {
+    position: absolute;
+    top: 1740px;
+}
+
+.marilyn {
+    position: relative;
+    top: 140px;
+    left: -150px;
 }
 
 /* ************************************************************* */
