@@ -3,10 +3,10 @@
 
 ## TODO LIST
 ### Main Page
-- [ ] try using maggy img in red with different blending mode
-- [ ] fix bottom of page; page length do to image repositioning
+- [x] try using maggy img in red with different blending mode (Fix #1)
+- [x] fix bottom of page; page length do to image repositioning (Fix #2)
 - [ ] create two-img
-- [ ] change footer background image color from black to dark
+- [x] remove footer background image & h1
 - [ ] resize for different screens/ make media queries
 ### Work Page
 ### About Page
@@ -63,7 +63,7 @@ Create any necessary HTML, and CSS files to create your web portfolio. Your port
 
 - [ ] Create a new repository folder named portfolio
 - [ ] Add me (@ProfJoanna) as a collaborator on GitHub
-- [ ] Follow the convention for adding file and folder names. All lowercase including file extensions, no special       characters, no spaces, must start with a letter, and may use hyphens or underscores.
+- [ ] Follow the convention for adding file and folder names. All lowercase including file extensions, no special characters, no spaces, must start with a letter, and may use hyphens or underscores.
 - [ ] You must use the Bootstrap framework for building your portfolio.
 - [ ] Utilize CSS variables to customize the default colour scheme of Bootstrap.
 - [ ] Your design must be optimized for a variety of screen sizes.

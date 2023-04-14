@@ -123,6 +123,10 @@ h3 {
     font-size: 100px !important;
 }
 
+h4 {
+    font-size: 32px !important;
+}
+
 a {
     font-size: 30px !important;
 }
@@ -142,20 +146,40 @@ p {
     transform-origin: left bottom;
     transform: skewY(-3deg);
 
-    background-image: url("/images/maggy-taunting-red-sun.jpg");
+    /* background-image: url("/images/maggy-taunting-red-sun.jpg"); */
 }
 
 .title-bar-code, .title-bar-graph {
     transform-origin: left bottom;
     transform: skewY(3deg);
     
-    background-image: url("/images/maggy-taunting-red-sun.jpg");
+    /* background-image: url("/images/maggy-taunting-red-sun.jpg"); */
 }
 
 .maggy-img {
     position: absolute;
-    top: 950px;
-    z-index: -1;
+    top: 915px;
+    width: 500px;
+    transform: skewY(-3deg);
+    /* transform: rotate(-3deg); */
+    /* z-index: -1; */
+
+    /* mix-blend-mode: normal; */
+    /* mix-blend-mode: multiply; */
+    /* mix-blend-mode: screen; */
+    /* mix-blend-mode: overlay; */
+    /* mix-blend-mode: darken; */
+    /* mix-blend-mode: lighten; */
+    /* mix-blend-mode: color-dodge; */
+    /* mix-blend-mode: color-burn; */
+    /* mix-blend-mode: hard-light; */
+    /* mix-blend-mode: soft-light; */
+    /* mix-blend-mode: difference; */
+    mix-blend-mode: exclusion;
+    /* mix-blend-mode: hue; */
+    /* mix-blend-mode: saturation; */
+    /* mix-blend-mode: color; */
+    /* mix-blend-mode: luminosity; */
 }
 
 .x-img {
@@ -176,10 +200,10 @@ p {
     /* mix-blend-mode: color-burn; */
     /* mix-blend-mode: hard-light; */
     /* mix-blend-mode: soft-light; */
-    /* mix-blend-mode: difference; */
+    mix-blend-mode: difference;
     /* mix-blend-mode: exclusion; */
     /* mix-blend-mode: hue; */
-    mix-blend-mode: saturation;
+    /* mix-blend-mode: saturation; */
     /* mix-blend-mode: color; */
     /* mix-blend-mode: luminosity; */
 }
@@ -201,8 +225,8 @@ p {
 }
 
 .marilyn {
-    position: relative;
-    top: -140px;
+    position: absolute;
+    top: 1375px;
     left: -500px;
 
     height: 1150px;
@@ -210,8 +234,8 @@ p {
 }
 
 .two-img {
-    position: relative;
-    top: -940px;
+    position: absolute;
+    top: 1700px;
     left: 180px;
 
     height: 320px;
@@ -236,34 +260,16 @@ p {
 }
 
 .doit-img {
-    position: relative;
-    top: -1040px;
+    position: absolute;
+    top: 2000px;
 
     height: 320px;
     width: auto;
 }
 
 .container-footer {
-    position: relative;
-    top: -800px;
-}
-
-.wrapper-footer-background {
-    position: relative;
-    top: -500px;
-    left: -100px;
-    z-index: -99;
-}
-
-.footer-text {
-    position: relative;
-    top: -500px;
-    color: white;
-}
-
-.social-link {
-    position: relative;
-    top: -500px;
+    position: absolute;
+    top: 2200px;
     color: white;
 }
 

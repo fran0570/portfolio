@@ -58,23 +58,23 @@
         <!-- promotional section 1 our services -->
         <section class="container-services" role="region">
             <div class="wrapper d-flex flex-column">
-                <div class="title-bar-web w-75 bg-danger">
-                    <h3 class="service-web display-1">WEB</h3>
+                <div class="title-bar-web w-75 bg-black">
+                    <h3 class="service-web display-1 text-white">WEB</h3>
                 </div>
-                <div class="title-bar-code w-75 align-self-end bg-danger">
-                    <h3 class="service-coding text-end display-1">CODING</h3>
+                <div class="title-bar-code w-75 align-self-end bg-black">
+                    <h3 class="service-coding text-end display-1 text-white">CODING</h3>
                 </div>
-                <div class="title-bar-media w-75 mt-5 bg-danger">
-                    <h3 class="service-media display-1">MEDIA</h3>
+                <div class="title-bar-media w-75 mt-5 bg-black">
+                    <h3 class="service-media display-1 text-white">MEDIA</h3>
                 </div>
-                <div class="title-bar-graph w-75 align-self-end bg-danger">
-                    <h3 class="service-graphix text-end display-1">GRAPHI</h3>
+                <div class="title-bar-graph w-75 align-self-end bg-black">
+                    <h3 class="service-graphix text-end display-1 text-white">GRAPHI</h3>
                 </div>
             </div>
 
             <picture class="wrapper-maggy-img">
                 <source>
-                <img class="maggy-img container-fluid" src="images/maggy-taunting-blue-sun.jpg" alt="Abstract Art of Maggy with sunglasses">
+                <img class="maggy-img container g-0" src="images/maggy-taunting-red-sun.jpg" alt="Abstract Art of Maggy with sunglasses">
             </picture>
             <picture class="wrapper-x-img">
                 <source>
@@ -113,14 +113,16 @@
     
     <!-- main page footer with address, social media, and copyright -->
     <footer class="container-footer container-fluid text-end"  role="contentinfo">
-        <div><h3>HEARTFELT STUDIO</h3></div>
+        <div><h4>We are located at:</h4></div>
         <!-- Add Schema improving the way search engines read and represent your page -->
-        <div class="footer-text"><p itemscope="address" itemtype="https://schema.org/PostalAddress">
-            <span>We are located at:</span><br>
-            <span itemprop="streetAddress">1385 Woodroffe Ave,</span><br>
-            <span itemprop="addressLocality">Ottawa, </span>ON<br>
-            <span itemprop="addressCountry">Canada</span>
-            <span intemprop="postalCode">K2G 1V8</span><br> &copy; HEARTFELT STUDIO A FRANKHEART COMPANY </p></div>
+        <div class="footer-text">
+            <p itemscope="address" itemtype="https://schema.org/PostalAddress">
+                <span itemprop="streetAddress">1385 Woodroffe Ave,</span><br>
+                <span itemprop="addressLocality">Ottawa, </span>ON<br>
+                <span itemprop="addressCountry">Canada</span>
+                <span intemprop="postalCode">K2G 1V8</span><br> &copy; HEARTFELT STUDIO A FRANKHEART COMPANY
+            </p>
+        </div>
         
         <div class="social-link">
             <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook" role="link" aria-label="facebook link"></i></a>
@@ -132,12 +134,6 @@
             <a href="https://www.pinterest.ca/"><i class="fa fa-pinterest-square" role="link" aria-label="pinterest link"></i></a>
             <a href="https://www.flickr.com/"><i class="fa fa-flickr" role="link" aria-label="flickr link"></i></a>
         </div>
-
-        <picture class="wrapper-footer-background">
-            <source>
-            <img class="bck-pattern" src="images/heartfelt-background-pattern.png" alt="background patterned image">
-        </picture>
-
     </footer>
 
     <!-- Bootstrap JS -->
