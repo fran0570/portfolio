@@ -397,14 +397,8 @@ p {
 /* Large Screens (desktop) */
 @media screen and (min-width: 992px) {
 
-    .navbar-nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-    }
-
     h1 {
-        font-size: 300px !important;
+        font-size: 100px !important;
     }
     
     h2 {
@@ -420,40 +414,129 @@ p {
     }
 
     .felt {
-        line-height: 60% !important;
+        line-height: 65% !important;
     }
     
     .studio {
-        line-height: 60% !important;
+        line-height: 75% !important;
     }
     
     .logo {
-        top: 280px;
-        left: 800px;
-        width: 800px;
+        top: 200px;
+        left: 500px;
+        width: 700px;
     }
 
     .maggy-img {
-        top: 1500px;
+        top: 1030px;
         width: 1600px;
     }
     
     .x-img {
-        top: 1940px;
-        left: 1260px;
+        top: 1640px;
+        left: 720px;
         height: 400px;
     }
     
     .iphone {
-        top: 2400px;
+        top: 2100px;
         width: 70%;
-        left: 500px;
+        left: 400px;
     }
 
     .poster-text {
-        top: 2420px;
+        top: 2120px;
         width: 52%;
-        left: 600px;
+        left: 470px;
+    }
+    
+    .text-mobile {
+        margin-bottom: 5%;
+    }
+    
+    .marilyn {
+        top: 1800px;
+        left: -500px;
+        height: 1450px;
+    }
+    
+    .two-img {
+        top: 2250px;
+        left: 500px;
+        height: 400px;
+    }
+    
+    .doit-img {
+        top: 1750px;
+        left: 300px;
+        height: 440px;
+        width: auto;
+    }
+    
+    .container-footer {
+        top: 2900px;
+    }
+}
+    /* Large Full Screens (desktop) */
+@media screen and (min-width: 1440px) {
+
+    .navbar-nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    h1 {
+        font-size: 100px !important;
+    }
+    
+    h2 {
+        font-size: 200px !important;
+    }
+    
+    h3 {
+        font-size: 120px !important;
+    }
+    
+    a {
+        font-size: 50px !important;
+    }
+
+    .felt {
+        line-height: 63% !important;
+    }
+    
+    .studio {
+        line-height: 81% !important;
+    }
+    
+    .logo {
+        top: 400px;
+        left: 900px;
+        width: 700px;
+    }
+
+    .maggy-img {
+        top: 1300px;
+        width: 1600px;
+    }
+    
+    .x-img {
+        top: 2040px;
+        left: 1320px;
+        height: 400px;
+    }
+    
+    .iphone {
+        top: 2500px;
+        width: 70%;
+        left: 460px;
+    }
+
+    .poster-text {
+        top: 2550px;
+        width: 52%;
+        left: 580px;
     }
     
     .text-mobile {
@@ -467,19 +550,20 @@ p {
     }
     
     .two-img {
-        top: 2500px;
+        top: 2700px;
         left: 900px;
         height: 400px;
     }
     
     .doit-img {
-        top: 2000px;
+        top: 1950px;
         left: 300px;
         height: 440px;
         width: auto;
     }
     
     .container-footer {
-        top: 3150px;
+        top: 3100px;
+        right: 20px;
     }
 }
