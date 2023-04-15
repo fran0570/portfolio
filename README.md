@@ -18,7 +18,7 @@ For this project, you will use the mockups, wireframes and design elements you c
 ### Main Page
 - [x] try using maggy img in red with different blending mode (Fix #1)
 - [x] fix bottom of page; page length do to image repositioning (Fix #2)
-- [ ] create two-img
+- [x] create two-img
 - [x] remove footer background image & h1
 - [ ] resize for different screens/ make media queries
 ### Secondary Pages

@@ -222,6 +222,7 @@ p {
 
 .text-mobile {
     margin-bottom: 20%;
+    /* z-index: 99 !important; */
 }
 
 .marilyn {
@@ -242,7 +243,7 @@ p {
     width: auto;
     transform: rotate(3deg);
     /* mix-blend-mode: normal; */
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
     /* mix-blend-mode: screen; */
     /* mix-blend-mode: overlay; */
     /* mix-blend-mode: darken; */
@@ -257,6 +258,7 @@ p {
     /* mix-blend-mode: saturation; */
     /* mix-blend-mode: color; */
     /* mix-blend-mode: luminosity; */
+    /* z-index: -1; */
 }
 
 .doit-img {
@@ -343,23 +345,24 @@ p {
     }
 
     .maggy-img {
-        top: 1000px;
+        top: 900px;
         width: 1400px;
     }
     
     .x-img {
         top: 1640px;
-        left: 700px;
+        left: 500px;
     }
     
     .iphone {
         /* left: -60px; */
         top: 1970px;
-        width: 70%;
+        width: 80%;
     }
 
     .poster-text {
-        top: 1990px;
+        top: 1980px;
+        /* left: 0px; */
         width: 98%;
     }
     
@@ -375,13 +378,13 @@ p {
     
     .two-img {
         top: 2100px;
-        left: 400px;
+        left: 300px;
         height: 400px;
     }
     
     .doit-img {
-        top: 1900px;
-        left: 500px;
+        top: 2350px;
+        left: 100px;
         height: 320px;
         width: auto;
     }
