@@ -279,10 +279,127 @@ p {
    should be used as necessary will us 768px, and 992px */
 /* ************************************************************* */
 /* Medium Screens (tablets) */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    
+    .navbar-nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-item:nth-child(1) {
+        grid-column: 1 / 2;
+    }
+
+    .nav-button {
+        width: 384px !important;
+        text-align: left;
+    }
+
+    .hero {
+        margin: 0px;
+    }
+    
+    .heart {
+        line-height: 83% !important;
+        font-size: 40vw !important;
+        /* padding: 0px; */
+        /* margin: 0px; */
+    }
+    
+    .felt {
+        line-height: 63% !important;
+        font-size: 35vw !important;
+    }
+    
+    .studio {
+        line-height: 83% !important;
+        font-size: 37vw !important;
+    }
+    
+    /* -------text formating------- */
+    h2 {
+        font-size: 220px !important;
+    }
+    
+    h3 {
+        font-size: 160px !important;
+    }
+    
+    /* h4 {
+        font-size: 32px !important;
+    }
+    
+    a {
+        font-size: 30px !important;
+    }
+    
+    p {
+        font-size: 20px !important;
+    } */
+    
+    .logo {
+        top: 280px;
+        left: 500px;
+    }
+
+    .maggy-img {
+        top: 1000px;
+        width: 1400px;
+    }
+    
+    .x-img {
+        top: 1640px;
+        left: 700px;
+    }
+    
+    .iphone {
+        /* left: -60px; */
+        top: 1970px;
+        width: 70%;
+    }
+
+    .poster-text {
+        top: 1990px;
+        width: 98%;
+    }
+    
+    .text-mobile {
+        margin-bottom: 10%;
+    }
+    
+    .marilyn {
+        top: 1680px;
+        left: -500px;
+        height: 1450px;
+    }
+    
+    .two-img {
+        top: 2100px;
+        left: 400px;
+        height: 400px;
+    }
+    
+    .doit-img {
+        top: 1900px;
+        left: 500px;
+        height: 320px;
+        width: auto;
+    }
+    
+    .container-footer {
+        top: 2800px;
+    }
+}
 
 /* Large Screens (desktop) */
 @media screen and (min-width: 992px) {
+
+    .navbar-nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
     h1 {
         font-size: 300px !important;
     }
@@ -292,34 +409,74 @@ p {
     }
     
     h3 {
-        font-size: 100px !important;
+        font-size: 120px !important;
     }
     
     a {
         font-size: 50px !important;
     }
+
+    .felt {
+        line-height: 60% !important;
+    }
+    
+    .studio {
+        line-height: 60% !important;
+    }
     
     .logo {
-        padding-top: 400px;
+        top: 280px;
+        left: 800px;
+        width: 800px;
     }
-    
-    .title-bar-web, .title-bar-media {
-        transform-origin: left bottom;
-        transform: skewY(-3deg);
-    
-        background-image: url("/images/maggy-taunting-red-sun.jpg");
-    }
-    
-    .title-bar-code, .title-bar-graph {
-        transform-origin: left bottom;
-        transform: skewY(3deg);
-        
-        background-image: url("/images/maggy-taunting-red-sun.jpg");
-    }
-    
+
     .maggy-img {
-        position: absolute;
         top: 1500px;
-        z-index: -1;
+        width: 1600px;
+    }
+    
+    .x-img {
+        top: 1940px;
+        left: 1260px;
+        height: 400px;
+    }
+    
+    .iphone {
+        top: 2400px;
+        width: 70%;
+        left: 500px;
+    }
+
+    .poster-text {
+        top: 2420px;
+        width: 52%;
+        left: 600px;
+    }
+    
+    .text-mobile {
+        margin-bottom: 5%;
+    }
+    
+    .marilyn {
+        top: 2000px;
+        left: -500px;
+        height: 1450px;
+    }
+    
+    .two-img {
+        top: 2500px;
+        left: 900px;
+        height: 400px;
+    }
+    
+    .doit-img {
+        top: 2000px;
+        left: 300px;
+        height: 440px;
+        width: auto;
+    }
+    
+    .container-footer {
+        top: 3150px;
     }
 }
