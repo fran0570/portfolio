@@ -260,14 +260,18 @@ p {
         top: 280px;
         left: 500px;
     }
+
+    iframe {
+        width: 700px;
+    }
     
     .iphone {
-        top: 3370px;
+        top: 3170px;
         width: 80%;
     }
 
     .poster-text {
-        top: 3380px;
+        top: 3180px;
         width: 98%;
     }
     
@@ -276,26 +280,26 @@ p {
     }
     
     .marilyn {
-        top: 3080px;
+        top: 2880px;
         left: -500px;
         height: 1450px;
     }
     
     .two-img {
-        top: 3500px;
+        top: 3300px;
         left: 300px;
         height: 400px;
     }
     
     .doit-img {
-        top: 3150px;
+        top: 2950px;
         left: 400px;
         height: 320px;
         width: auto;
     }
     
     .container-footer {
-        top: 4200px;
+        top: 4000px;
     }
 }
 
@@ -332,14 +336,18 @@ p {
         width: 700px;
     }
     
+    iframe {
+        width: 920px;
+    }
+
     .iphone {
-        top: 3100px;
+        top: 3500px;
         width: 70%;
         left: 400px;
     }
 
     .poster-text {
-        top: 3120px;
+        top: 3520px;
         width: 52%;
         left: 470px;
     }
@@ -349,26 +357,26 @@ p {
     }
     
     .marilyn {
-        top: 2800px;
+        top: 3200px;
         left: -500px;
         height: 1450px;
     }
     
     .two-img {
-        top: 3250px;
+        top: 3650px;
         left: 500px;
         height: 400px;
     }
     
     .doit-img {
-        top: 2755px;
+        top: 3155px;
         left: 300px;
         height: 440px;
         width: auto;
     }
     
     .container-footer {
-        top: 3900px;
+        top: 4300px;
     }
 }
     /* Large Full Screens (desktop) */
@@ -415,13 +423,13 @@ p {
     }
     
     .iphone {
-        top: 3500px;
+        top: 3800px;
         width: 70%;
         left: 460px;
     }
 
     .poster-text {
-        top: 3550px;
+        top: 3850px;
         width: 52%;
         left: 580px;
     }
@@ -431,26 +439,26 @@ p {
     }
     
     .marilyn {
-        top: 3000px;
+        top: 3300px;
         left: -500px;
         height: 1450px;
     }
     
     .two-img {
-        top: 3700px;
+        top: 4000px;
         left: 900px;
         height: 400px;
     }
     
     .doit-img {
-        top: 3100px;
+        top: 3400px;
         left: 400px;
         height: 440px;
         width: auto;
     }
     
     .container-footer {
-        top: 4100px;
+        top: 4400px;
         right: 20px;
     }
 }

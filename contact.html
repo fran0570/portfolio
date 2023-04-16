@@ -58,32 +58,45 @@
         <!-- about us title -->
         <section class="container-about" role="region">
             <div class="wrapper d-flex flex-column">
-                <div class="title-bar-about w-75 bg-dark">
-                    <h2 class="title-about display-1 text-white">ABOUT</h2>
+                <div class="title-bar-about w-100 bg-dark">
+                    <h2 class="title-about display-1 text-white">CONTACT</h2>
                 </div>
                 <div class="title-bar-us bg-dark">
                     <h2 class="title-us text-center display-1 text-white">US</h2>
                 </div>
             </div>
         </section>
-        <!-- promotional section 2 -->
+        <!-- section location & email -->
         <section class="container-poster container-fluid" role="region">
-            <div class="container-quote">
-                <blockquote>
-                    <h1 class="quotation-mark-one">"</h1>
-                    <h3>Conformity is the jailer of freedom and the enemy of growth.</h3>
-                    <h1 class="quotation-mark-two">"</h1> -John F. Kennedy
-                </blockquote>
+
+            <div class="card w-100 mt-5 mb-5">
+                <div class="card-body title-bar-location w-100 bg-dark">
+                    <h3 class="card-title-location display-1 text-white">LOCATION</h3>
+                    <iframe class="map-location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.8618220472626!2d-75.75494599999999!3d45.35160150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce071fb12b1585%3A0xb3f9350de69accd2!2sPhysical%20Resources%2C%201385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G!5e0!3m2!1sen!2sca!4v1681686972649!5m2!1sen!2sca" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="card-text text-white">In today’s overcrowded markets</p>
+                    <a href="work.html" class="btn btn-danger">Go to my work</a>
+                </div>
             </div>
 
-            <div class="card w-100 mb-3">
-                <div class="card-body title-bar-web w-100 bg-dark">
-                    <h3 class="card-title-web display-1 text-white">RESUME</h3>
-                    <p class="card-text text-white">In today’s overcrowded markets, the main obstacle that every business face is the question of, how to stand out from the rest! <br> Good news! You have finally found the answers. <br> Im a Dependable and devoted media designer specializing in web development, who lives and thrives outside the box.
-                        With the new website, branding, or video advertisement I create for you, you may put those worries to bed for good.
-                        I have many years of customer service experience. In-depth computer system and software knowledge. A keen eye for detail, excellent organization skills, and accustomed to working in a fast past environment. <br>
-                        But Don’t take my word for it. <br> My work speaks for itself… </p>
-                    <a href="work.html" class="btn btn-danger">Go to my work</a>
+            <div class="card w-100">
+                <div class="card-body title-bar-email w-100 bg-dark">
+                    <h3 class="card-title-email display-1 text-white">CONTACT US</h3>
+                    
+                    <form>
+                        <div class="form-group">
+                          <label class="text-white" for="exampleFormControlInput1">Name</label>
+                          <input type="name" class="form-control" id="full-name" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label class="text-white" for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                        <div class="form-group">
+                          <label class="text-white" for="exampleFormControlTextarea1">Subject</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                      </form>
+                    <a href="work.html" class="btn btn-danger mt-3">Submit</a>
                 </div>
             </div>
 
