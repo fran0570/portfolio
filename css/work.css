@@ -1,0 +1,436 @@
+/* ************************************************************* */
+/*  Final Project – Web Portfolio - Menu CSS */
+/* ************************************************************* */
+
+/* loading fonts */
+@font-face {
+    font-family: 'AntrySans'; src: url('/fonts/AntrySans.otf');
+    /* font-family: 'ant'; src: url('https://fran0570.github.io/portfolio/fonts/AntrySans_PERSONAL_USE_ONLY.otf'); */
+}
+@font-face {
+    font-family: 'big_noodle_titling'; src: url('/fonts/big_noodle_titling.ttf');
+    /* font-family: 'big_noodle_titling'; src: url('https://fran0570.github.io/portfolio/fonts/big_noodle_titling.ttf'); */
+}
+
+:root {
+    /* costum property/variable */
+    /* colors */
+    /* temporary place older colors */
+    --primary-color: black;
+    --primary-color-light: gray;
+    --secondary-color: Blue;
+    --secondary-color-light: Blue;
+    --highlight-color: yellow;
+    --white-color: white;
+    /* spacing */
+    --paddings: 2rem;
+    --margins: 1rem;
+
+    --bs-body-font-family: 'big_noodle_titling';
+    --bs-body-font-size: 32px;
+    
+}
+
+/* Main styling for entire site */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* ************************************************************* */
+/* Skip button styling */
+/* ************************************************************* */
+/* this will improve the user experience and accessibility */
+.access-skip-links {
+    margin: 0;
+    padding: 0;
+}
+  
+.access-skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: .5em 1em;
+    z-index: 99;
+}
+  
+.access-skip-links a:focus {
+    top: 0;
+    left: 60%;
+}
+
+/* ************************************************************* */
+/*  Navigation Bar Styling
+    Going from one column to one row with screen size */
+/* ************************************************************* */
+.navbar {
+    transform-origin: left bottom;
+    transform: skewY(-3deg);
+}
+
+.nav-button {
+    width: 992px !important;
+    text-align: left;
+}
+
+/* -------hero text formating------- */
+.hero {
+    transform-origin: left bottom;
+    transform: skewY(-3deg);
+}
+
+.hero-text {
+    font-family: 'AntrySans';
+}
+
+.heart {
+    line-height: 80% !important;
+    font-size: 40vw !important;
+}
+
+.felt {
+    line-height: 80% !important;
+    font-size: 35vw !important;
+}
+
+.studio {
+    line-height: 80% !important;
+    font-size: 37vw !important;
+}
+
+/* -------text formating------- */
+h2 {
+    font-size: 150px !important;
+}
+
+h3 {
+    font-size: 100px !important;
+}
+
+h4 {
+    font-size: 32px !important;
+}
+
+a {
+    font-size: 30px !important;
+}
+
+p {
+    font-size: 20px !important;
+}
+
+.logo {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    z-index: 1;
+}
+
+.title-bar-web, .title-bar-media {
+    transform-origin: left bottom;
+    transform: skewY(-3deg);
+}
+
+.title-bar-code, .title-bar-graph {
+    transform-origin: left bottom;
+    transform: skewY(3deg);
+}
+
+.iphone {
+    position: absolute;
+    left: -60px;
+    top: 2610px;
+}
+
+.poster-text {
+    position: absolute;
+    top: 2650px;
+    width: 95%;
+}
+
+.text-mobile {
+    margin-bottom: 20%;
+}
+
+.marilyn {
+    position: absolute;
+    top: 2375px;
+    left: -500px;
+
+    height: 1150px;
+    width: auto;
+}
+
+.two-img {
+    position: absolute;
+    top: 2700px;
+    left: 180px;
+
+    height: 320px;
+    width: auto;
+    transform: rotate(3deg);
+}
+
+.doit-img {
+    position: absolute;
+    top: 2300px;
+    left: 200px;
+
+    height: 320px;
+    width: auto;
+}
+
+.container-footer {
+    position: absolute;
+    top: 3200px;
+    color: white;
+}
+
+/* ************************************************************* */
+/* Media Query 
+   No specific media queries and breakpoints are required but 
+   should be used as necessary will us 768px, and 992px */
+/* ************************************************************* */
+/* Medium Screens (tablets) */
+@media screen and (min-width: 768px) {
+    
+    .navbar-nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-item:nth-child(1) {
+        grid-column: 1 / 2;
+    }
+
+    .nav-button {
+        width: 384px !important;
+        text-align: left;
+    }
+
+    .hero {
+        margin: 0px;
+    }
+    
+    .heart {
+        line-height: 83% !important;
+        font-size: 40vw !important;
+    }
+    
+    .felt {
+        line-height: 63% !important;
+        font-size: 35vw !important;
+    }
+    
+    .studio {
+        line-height: 83% !important;
+        font-size: 37vw !important;
+    }
+    
+    /* -------text formating------- */
+    h2 {
+        font-size: 220px !important;
+    }
+    
+    h3 {
+        font-size: 160px !important;
+    }
+    
+    .logo {
+        top: 280px;
+        left: 500px;
+    }
+    
+    .iphone {
+        top: 2970px;
+        width: 80%;
+    }
+
+    .poster-text {
+        top: 2980px;
+        width: 98%;
+    }
+    
+    .text-mobile {
+        margin-bottom: 10%;
+    }
+    
+    .marilyn {
+        top: 2680px;
+        left: -500px;
+        height: 1450px;
+    }
+    
+    .two-img {
+        top: 3100px;
+        left: 300px;
+        height: 400px;
+    }
+    
+    .doit-img {
+        top: 2650px;
+        left: 400px;
+        height: 320px;
+        width: auto;
+    }
+    
+    .container-footer {
+        top: 3800px;
+    }
+}
+
+/* Large Screens (desktop) */
+@media screen and (min-width: 992px) {
+
+    h1 {
+        font-size: 100px !important;
+    }
+    
+    h2 {
+        font-size: 200px !important;
+    }
+    
+    h3 {
+        font-size: 120px !important;
+    }
+    
+    a {
+        font-size: 50px !important;
+    }
+
+    .felt {
+        line-height: 65% !important;
+    }
+    
+    .studio {
+        line-height: 75% !important;
+    }
+    
+    .logo {
+        top: 200px;
+        left: 500px;
+        width: 700px;
+    }
+    
+    .iphone {
+        top: 3100px;
+        width: 70%;
+        left: 400px;
+    }
+
+    .poster-text {
+        top: 3120px;
+        width: 52%;
+        left: 470px;
+    }
+    
+    .text-mobile {
+        margin-bottom: 5%;
+    }
+    
+    .marilyn {
+        top: 2800px;
+        left: -500px;
+        height: 1450px;
+    }
+    
+    .two-img {
+        top: 3250px;
+        left: 500px;
+        height: 400px;
+    }
+    
+    .doit-img {
+        top: 2750px;
+        left: 300px;
+        height: 440px;
+        width: auto;
+    }
+    
+    .container-footer {
+        top: 3900px;
+    }
+}
+    /* Large Full Screens (desktop) */
+@media screen and (min-width: 1440px) {
+
+    .navbar-nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    h1 {
+        font-size: 100px !important;
+    }
+    
+    h2 {
+        font-size: 200px !important;
+    }
+    
+    h3 {
+        font-size: 120px !important;
+    }
+    
+    a {
+        font-size: 50px !important;
+    }
+
+    .felt {
+        line-height: 63% !important;
+    }
+    
+    .studio {
+        line-height: 81% !important;
+    }
+    
+    .logo {
+        top: 400px;
+        left: 900px;
+        width: 700px;
+    }
+    
+    .iphone {
+        top: 3500px;
+        width: 70%;
+        left: 460px;
+    }
+
+    .poster-text {
+        top: 3550px;
+        width: 52%;
+        left: 580px;
+    }
+    
+    .text-mobile {
+        margin-bottom: 5%;
+    }
+    
+    .marilyn {
+        top: 3000px;
+        left: -500px;
+        height: 1450px;
+    }
+    
+    .two-img {
+        top: 3700px;
+        left: 900px;
+        height: 400px;
+    }
+    
+    .doit-img {
+        top: 3100px;
+        left: 400px;
+        height: 440px;
+        width: auto;
+    }
+    
+    .container-footer {
+        top: 4100px;
+        right: 20px;
+    }
+}

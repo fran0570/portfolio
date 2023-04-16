@@ -20,9 +20,9 @@ For this project, you will use the mockups, wireframes and design elements you c
 - [x] fix bottom of page; page length do to image repositioning (Fix #2)
 - [x] create two-img
 - [x] remove footer background image & h1
-- [ ] resize for different screens/ make media queries
+- [x] resize for different screens/ make media queries
 ### Secondary Pages
-- [ ] make work page
+- [x] make work page
 - [ ] make about page
 - [ ] make contact page
 

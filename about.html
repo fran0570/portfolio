@@ -4,26 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Reset -->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/about.css">
-    <title>Final Project - Web Portfolio MTM6201_030 - About Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Font Awesome link for icons -->
+    <script src="https://kit.fontawesome.com/84469dfcbe.js" crossorigin="anonymous"></script>
+    <!-- css stylesheet link -->
+    <link rel="stylesheet" href="css/work.css">
+    <title>Final Project - Web Portfolio MTM6201_030</title>
 </head>
 <body>
     <!-- Add skip link for accessibility -->
     <ul class="access-skip-links">
-        <li><a aria-label="Skip to navigation" href="#nav">Skip to the navigation</a></li>
-        <li><a aria-label="Skip to main guess ordering" href="#main">Skip to the main content</a></li>
+        <li><a class="btn btn-outline-light ms-1 mt-2" aria-label="Skip to navigation" href="#nav">Skip to the navigation</a></li>
+        <li><a class="btn btn-outline-light ms-5 mt-2 mb-4" aria-label="Skip to main guess ordering" href="#main">Skip to the main content</a></li>
     </ul>
     <header class="site-header" aria-details="site banner">
         <!-- Website navigation bar -->
-        <nav class="navbar" id="nav" role="navigation" aria-label="main site navigation">
-            <ul>
-                <li class="button-home"><a role="button" aria-label="Home Page" href="index.html" target="_self">Home</a></li>
-                <li class="button-Work"><a role="button" aria-label="Work/Portfolio Page" href="work.html" target="_self">Work & Portfolio</a></li>
-                <li class="button-about"><a role="button" aria-label="About Us Page" href="about.html" target="_self">About Us</a></li>
-                <li class="button-contact"><a role="button" aria-label="Contact Us Page" href="contact.html" target="_self">Contact Us</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-dark mt-5" id="nav" role="navigation" aria-label="main site navigation">
+            <div class="container-fluid">
+                <ul class="navbar-nav grid">
+                    <li class="nav-item">
+                        <a class="nav-button btn btn-dark rounded-0" aria-current="page" aria-label="Home Page" href="index.html" target="_self">HOME <br> HOME PAGE </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-button btn btn-dark rounded-0 active" aria-label="Work & Portfolio Page" href="work.html" target="_self">MY WORK <br> PORTFOLIO PAGE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-button btn btn-dark rounded-0" aria-label="About Us Page" href="about.html" target="_self">ABOUT US <br> ABOUT PAGE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-button btn btn-dark rounded-0" aria-label="Contact Us Page" href="contact.html" target="_self">CONTACT US <br> CONTACT PAGE</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+          <!-- company logo -->
+          <div class="hero container p-0">
+            <div class="row m-0">
+                <div class="hero-text-wrapper col">
+                    <h1 class="hero-text fw-bold p-0"><span class="heart">HEART</span><br><span class="felt">-FELT</span><br><span class="studio">STUDIO</span></h1>
+                </div>
+                <div class="heart-logo col p-0">
+                    <img class="logo p-0" src="images/cropped-heartfelt-logo-pink.png" alt="" class="company-logo">
+                </div>
+            </div>
+          </div>
     </header>
+    <!-- fold -->
+    <main>
+        <!-- promotional section 1 our services -->
+        <section class="container-gallery" role="region">
+            <div class="wrapper d-flex flex-column">
+
+                <div class="card w-100 mb-3">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body title-bar-web w-75 bg-dark">
+                        <h3 class="card-title-web display-1 text-white">WEB</h3>
+                        <p class="card-text">Web gallery page coming soon.</p>
+                        <a href="#" class="btn btn-danger">Go To Gallery</a>
+                    </div>
+                </div>
+
+                <div class="card w-100 mb-3">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body title-bar-code w-75 align-self-end bg-dark">
+                        <h3 class="card-title-web display-1 text-white">PHOTO</h3>
+                        <p class="card-text">Photography gallery page coming soon.</p>
+                        <a href="#" class="btn btn-danger">Go To Gallery</a>
+                    </div>
+                </div>
+
+                <div class="card w-100 mb-3">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body title-bar-media w-75 mt-5 bg-dark">
+                        <h3 class="card-title-web display-1 text-white">ART</h3>
+                        <p class="card-text">Art gallery page coming soon.</p>
+                        <a href="#" class="btn btn-danger">Go To Gallery</a>
+                    </div>
+                </div>
+
+                <div class="card w-100 mb-3">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body title-bar-graph w-75 align-self-end bg-dark">
+                        <h3 class="card-title-web display-1 text-white">GAMES</h3>
+                        <p class="card-text">Mobile game development page coming soon.</p>
+                        <a href="#" class="btn btn-danger">Go To Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- promotional section 2 -->
+        <section class="container-poster container-fluid" role="region">
+            <picture class="wrapper-phone-img">
+                <source>
+                <img class="iphone container-fluid z-0" src="images/iphone.png" alt="phone outline image">
+            </picture>
+
+            <div class="poster-text z-3">
+                <h2 class="text-mobile text-start fw-bold">MOBILE</h2>
+                <h3 class="text-print text-end fw-light">PRINT</h3>
+            </div>
+
+            <picture class="wrapper-marilyn-img">
+                <source srcset="images/monroe-heart1440.png" media="(min-width: 992px)">
+                <source srcset="images/monroe-heart1440.png" media="(min-width: 768px)">
+                <source srcset="images/monroe-heart1440.png" media="(max-width: 767px)">
+                <img class="marilyn container-fluid z-n1" src="images/monroe-heart.png" alt="vector art of marylin monroe">
+            </picture>
+            <picture class="wrapper-two-img">
+                <source>
+                <img class="two-img z-0" src="images/two.jpg" alt="number 2 shaped plattered paint">
+            </picture>
+            <picture class="wrapper-doit-img">
+                <source>
+                <img class="doit-img" src="images/doit.png" alt="we can do it publicity bubble">
+            </picture>
+
+        </section>
+    </main>
+    
+    <!-- main page footer with address, social media, and copyright -->
+    <footer class="container-footer container-fluid text-end"  role="contentinfo">
+        <div><h4>We are located at:</h4></div>
+        <!-- Add Schema improving the way search engines read and represent your page -->
+        <div class="footer-text">
+            <p itemscope="address" itemtype="https://schema.org/PostalAddress">
+                <span itemprop="streetAddress">1385 Woodroffe Ave,</span><br>
+                <span itemprop="addressLocality">Ottawa, </span>ON<br>
+                <span itemprop="addressCountry">Canada</span>
+                <span intemprop="postalCode">K2G 1V8</span><br> &copy; HEARTFELT STUDIO A FRANKHEART COMPANY
+            </p>
+        </div>
+        
+        <div class="social-link">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook" role="link" aria-label="facebook link"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram" role="link" aria-label="instagram link"></i></a>
+            <a href="https://twitter.com/home?lang=en"><i class="fa-brands fa-square-twitter" role="link" aria-label="twitter link"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-square-youtube" role="link" aria-label="youtube link"></i></a>
+            <a href="https://www.whatsapp.com/"><i class="fa-brands fa-square-whatsapp" role="link" aria-label="whatsapp link"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" role="link" aria-label="linkedin link"></i></a>
+            <a href="https://www.pinterest.ca/"><i class="fa fa-pinterest-square" role="link" aria-label="pinterest link"></i></a>
+            <a href="https://www.flickr.com/"><i class="fa fa-flickr" role="link" aria-label="flickr link"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
