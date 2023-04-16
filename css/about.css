@@ -1,5 +1,5 @@
 /* ************************************************************* */
-/*  Final Project – Web Portfolio - Menu CSS */
+/*  Final Project – Web Portfolio - CSS */
 /* ************************************************************* */
 
 /* loading fonts */
@@ -102,7 +102,21 @@ html {
     font-size: 37vw !important;
 }
 
+
 /* -------text formating------- */
+.quotation-mark-one {
+    font-size: 300px;
+    line-height: 0px;
+    margin-top: 100px;
+}
+
+.quotation-mark-two {
+    font-size: 300px;
+    line-height: 0px;
+    margin-top: 120px;
+}
+
+
 h2 {
     font-size: 150px !important;
 }
@@ -130,25 +144,27 @@ p {
     z-index: 1;
 }
 
-.title-bar-web, .title-bar-media {
+.title-bar-about {
     transform-origin: left bottom;
     transform: skewY(-3deg);
 }
 
-.title-bar-code, .title-bar-graph {
+.title-bar-us {
     transform-origin: left bottom;
-    transform: skewY(3deg);
+    transform: skewY(-3deg);
+    margin-left: 220px !important;
+    margin-top: -12px;
 }
 
 .iphone {
     position: absolute;
     left: -60px;
-    top: 2610px;
+    top: 2910px;
 }
 
 .poster-text {
     position: absolute;
-    top: 2650px;
+    top: 2950px;
     width: 95%;
 }
 
@@ -158,7 +174,7 @@ p {
 
 .marilyn {
     position: absolute;
-    top: 2375px;
+    top: 2675px;
     left: -500px;
 
     height: 1150px;
@@ -167,7 +183,7 @@ p {
 
 .two-img {
     position: absolute;
-    top: 2700px;
+    top: 3000px;
     left: 180px;
 
     height: 320px;
@@ -177,7 +193,7 @@ p {
 
 .doit-img {
     position: absolute;
-    top: 2300px;
+    top: 2610px;
     left: 200px;
 
     height: 320px;
@@ -186,7 +202,7 @@ p {
 
 .container-footer {
     position: absolute;
-    top: 3200px;
+    top: 3500px;
     color: white;
 }
 
@@ -246,12 +262,12 @@ p {
     }
     
     .iphone {
-        top: 2970px;
+        top: 3370px;
         width: 80%;
     }
 
     .poster-text {
-        top: 2980px;
+        top: 3380px;
         width: 98%;
     }
     
@@ -260,26 +276,26 @@ p {
     }
     
     .marilyn {
-        top: 2680px;
+        top: 3080px;
         left: -500px;
         height: 1450px;
     }
     
     .two-img {
-        top: 3100px;
+        top: 3500px;
         left: 300px;
         height: 400px;
     }
     
     .doit-img {
-        top: 2650px;
+        top: 3150px;
         left: 400px;
         height: 320px;
         width: auto;
     }
     
     .container-footer {
-        top: 3800px;
+        top: 4200px;
     }
 }
 
@@ -345,7 +361,7 @@ p {
     }
     
     .doit-img {
-        top: 2750px;
+        top: 2755px;
         left: 300px;
         height: 440px;
         width: auto;
@@ -388,6 +404,10 @@ p {
         line-height: 81% !important;
     }
     
+    .title-about {
+        padding-left: 20%;
+    }
+
     .logo {
         top: 400px;
         left: 900px;

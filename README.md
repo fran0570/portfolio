@@ -23,7 +23,7 @@ For this project, you will use the mockups, wireframes and design elements you c
 - [x] resize for different screens/ make media queries
 ### Secondary Pages
 - [x] make work page
-- [ ] make about page
+- [x] make about page
 - [ ] make contact page
 
 ### Requirements To Do
