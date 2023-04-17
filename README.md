@@ -11,16 +11,15 @@ For this project, you will use the mockups, wireframes and design elements you c
 
 ## My Process
 
-My process starts with a with the creation of a good markup from the website wireframe design. This allows me to quickly write the html needed. I always start by writing all the html code needed for the main page. After that's done I will start on the styling of that page using bootstrap and CSS. Some
-html rewrite always follow as I do this step. I follow by writing the other pages. I do this so that I can use the main page as a template to create all other pages needed for the website.
+My process starts with the creation of a good markup from the website wireframe design. This allows me to quickly write the HTML needed. I always start by writing all the HTML code needed for the main page. After that, I will start on the styling of that page using Bootstrap and CSS. Some HTML rewrite always follows as I do this step. I follow by writing the other pages. I do this so that I can use the main page as a template to create all other pages needed for the website.
 
 ## The Challenges (I faced during development and how you overcame those changes)
 
-Coding always as lots of challenges. It's like the most illaborite puzzle ever created and putting all the peices together can be a tricky fit. During this perticular project my main challenges where figuring out how to turn my imbition design into code. In other word figuring how to place elements in a skewed somewhat overlapping manner as per my design. All this while making sure that it would all be resizable.
+Coding always as lots of challenges. It is like the most elaborate puzzle ever created and putting all the pieces together can be a tricky fit. During this particular project my main challenges where figuring out how to turn my ambition design into code. In other words figuring out how to place elements in a skewed somewhat overlapping manner as per my design. All this while making sure that it would all be resizable.
 
 ## What I learned by creating this web portfolio
 
-I have learn and developped my bootstrap skills and knowledge as well as sharpening some CSS skills. Like CSS image editing or blending which I learn about thanks to W3schools.
+I have learned and developed my bootstrap skills and knowledge as well as sharpening some CSS skills. Like CSS image editing or blending which I learn about thanks to W3schools.
 
 ## List of assets or resources used (that was not my own, including any frameworks, libraries, plugins, fonts, or images) 
 
@@ -48,9 +47,7 @@ big noodle font
 - [x] Utilize CSS variables to customize the default colour scheme of Bootstrap.
 - [x] Your design must be optimized for a variety of screen sizes.
 - [x] Your design should strive to meet accessibility standards. This should include semantic markup in a logical order, readable text, alternative text for visual elements, and functional using only the keyboard. ARIA roles, Schema, and skip links as required.
----
 - [ ] You must use one publicly available CSS library in addition to the Bootstrap framework. You may also use a JavaScript library for functionality. See the list of CSS libraries.
----
 - [x] If you choose to use web fonts, which is encouraged, use only fonts that you have the right to use, for example, Google fonts.
 - [x] All text, images, illustrations, videos, or any other asset, must be your own where possible. If you are using any stock images please identify them, in the README.md file. No copyrighted materials.
 - [x] Make sure that any images and illustrations are optimized, and that they respond (grow and shrink) to the layout. Create a minimum of two sizes of your images and utilize <picture> tag and srcset, sizes, and media attributes as needed.
