@@ -156,13 +156,13 @@ p {
 }
 
 .card-art {
-    position: absolute !important;
-    top: 1950px !important;
+    position: absolute;
+    top: 1950px;
 }
 
 .card-game {
-    position: absolute !important;
-    top: 2420px !important;
+    position: absolute;
+    top: 2420px;
 }
 
 .iphone {
@@ -265,18 +265,38 @@ p {
         font-size: 160px !important;
     }
     
+    .card-web {
+        position: absolute;
+        top: 1100px;
+    }
+    
+    .card-photo {
+        position: absolute;
+        top: 1620px;
+    }
+    
+    .card-art {
+        position: absolute;
+        top: 2200px;
+    }
+    
+    .card-game {
+        position: absolute;
+        top: 2780px;
+    }
+
     .logo {
         top: 280px;
         left: 500px;
     }
     
     .iphone {
-        top: 2970px;
+        top: 3370px;
         width: 80%;
     }
 
     .poster-text {
-        top: 2980px;
+        top: 3380px;
         width: 98%;
     }
     
@@ -285,26 +305,26 @@ p {
     }
     
     .marilyn {
-        top: 2680px;
+        top: 3080px;
         left: -500px;
         height: 1450px;
     }
     
     .two-img {
-        top: 3100px;
+        top: 3500px;
         left: 300px;
         height: 400px;
     }
     
     .doit-img {
-        top: 2650px;
+        top: 3050px;
         left: 400px;
         height: 320px;
         width: auto;
     }
     
     .container-footer {
-        top: 3800px;
+        top: 4200px;
     }
 }
 
@@ -341,14 +361,34 @@ p {
         width: 700px;
     }
     
+    .card-web {
+        position: absolute;
+        top: 1400px;
+    }
+    
+    .card-photo {
+        position: absolute;
+        top: 1920px;
+    }
+    
+    .card-art {
+        position: absolute;
+        top: 2500px;
+    }
+    
+    .card-game {
+        position: absolute;
+        top: 3080px;
+    }
+
     .iphone {
-        top: 3100px;
+        top: 3700px;
         width: 70%;
         left: 400px;
     }
 
     .poster-text {
-        top: 3120px;
+        top: 3720px;
         width: 52%;
         left: 470px;
     }
@@ -358,26 +398,26 @@ p {
     }
     
     .marilyn {
-        top: 2800px;
+        top: 3400px;
         left: -500px;
         height: 1450px;
     }
     
     .two-img {
-        top: 3250px;
+        top: 3850px;
         left: 500px;
         height: 400px;
     }
     
     .doit-img {
-        top: 2750px;
+        top: 3350px;
         left: 300px;
         height: 440px;
         width: auto;
     }
     
     .container-footer {
-        top: 3900px;
+        top: 4500px;
     }
 }
     /* Large Full Screens (desktop) */
@@ -418,15 +458,35 @@ p {
         left: 900px;
         width: 700px;
     }
+
+    .card-web {
+        position: absolute;
+        top: 1600px;
+    }
+    
+    .card-photo {
+        position: absolute;
+        top: 2120px;
+    }
+    
+    .card-art {
+        position: absolute;
+        top: 2700px;
+    }
+    
+    .card-game {
+        position: absolute;
+        top: 3280px;
+    }
     
     .iphone {
-        top: 3500px;
+        top: 4000px;
         width: 70%;
         left: 460px;
     }
 
     .poster-text {
-        top: 3550px;
+        top: 4050px;
         width: 52%;
         left: 580px;
     }
@@ -436,26 +496,26 @@ p {
     }
     
     .marilyn {
-        top: 3000px;
+        top: 3500px;
         left: -500px;
         height: 1450px;
     }
     
     .two-img {
-        top: 3700px;
+        top: 4200px;
         left: 900px;
         height: 400px;
     }
     
     .doit-img {
-        top: 3100px;
+        top: 3600px;
         left: 400px;
         height: 440px;
         width: auto;
     }
     
     .container-footer {
-        top: 4100px;
+        top: 4600px;
         right: 20px;
     }
 }
