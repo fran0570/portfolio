@@ -4,12 +4,12 @@
 
 /* loading fonts */
 @font-face {
-    /* font-family: 'AntrySans'; src: url('/fonts/AntrySans.otf'); */
-    font-family: 'AntrySans'; src: url('https://github.com/fran0570/portfolio/fonts/AntrySans.otf');
+    font-family: 'AntrySans'; src: url('../fonts/AntrySans.otf');
+    /* font-family: 'AntrySans'; src: url('https://github.com/fran0570/portfolio/fonts/AntrySans.otf'); */
 }
 @font-face {
-    /* font-family: 'big_noodle_titling'; src: url('/fonts/big_noodle_titling.ttf'); */
-    font-family: 'big_noodle_titling'; src: url('https://github.com/fran0570/portfolio/fonts/big_noodle_titling.ttf');
+    font-family: 'big_noodle_titling'; src: url('../fonts/big_noodle_titling.ttf');
+    /* font-family: 'big_noodle_titling'; src: url('https://github.com/fran0570/portfolio/fonts/big_noodle_titling.ttf'); */
 }
 
 :root {
