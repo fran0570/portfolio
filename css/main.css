@@ -15,8 +15,7 @@
 :root {
     /* costum property/variable */
     --bs-body-font-family: 'big_noodle_titling';
-    --bs-body-font-size: 32px;
-    
+    --bs-body-font-size: 32px;    
 }
 
 .btn-danger {
@@ -139,14 +138,33 @@ p {
     z-index: 1;
 }
 
+#wrap {
+    --x-translate: 0;
+    --y-translate: 0;
+}
+#item-wrap {
+    transform-origin: center center;
+    transform-style: preserve-3d;
+}
+
+#wrap:hover #item-wrap {
+    transform: rotate3d(0, 1, 0, calc(var(--x-translate, 0)*1deg)) rotate3d(1, 0, 0, calc(var(--y-translate, 0)*1deg));
+}
+
 .title-bar-web, .title-bar-media {
     transform-origin: left bottom;
     transform: skewY(-3deg);
+
+    /* background-size: cover; */
+    transform: translateZ(200px) scale(1);
 }
 
 .title-bar-code, .title-bar-graph {
     transform-origin: left bottom;
     transform: skewY(3deg);
+
+    /* background-size: cover; */
+    transform: translateZ(400px) scale(1);
 }
 
 .maggy-img {
