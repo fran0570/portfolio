@@ -15,7 +15,10 @@
 :root {
     /* costum property/variable */
     --bs-body-font-family: 'big_noodle_titling';
-    --bs-body-font-size: 32px;    
+    --bs-body-font-size: 32px;
+
+    --x-translate: 0;
+    --y-translate: 0;
 }
 
 .btn-danger {
@@ -138,17 +141,21 @@ p {
     z-index: 1;
 }
 
-#wrap {
-    --x-translate: 0;
-    --y-translate: 0;
-}
-#item-wrap {
+#promo-item-wrap {
     transform-origin: center center;
     transform-style: preserve-3d;
 }
 
-#wrap:hover #item-wrap {
+#section1:hover #promo-item-wrap {
     transform: rotate3d(0, 1, 0, calc(var(--x-translate, 0)*1deg)) rotate3d(1, 0, 0, calc(var(--y-translate, 0)*1deg));
+}
+
+#section1:hover .maggy-img {
+    transform: rotate3d(0, -1, 0, calc(var(--x-translate, 0)*2deg)) rotate3d(1, 0, 0, calc(var(--y-translate, 0)*2deg));
+}
+
+#section1:hover .x-img {
+    transform: rotate3d(0, 0, 1, calc(var(--x-translate, 0)*1deg)) rotate3d(0, 1, 0, calc(var(--y-translate, 0)*1deg));
 }
 
 .title-bar-web, .title-bar-media {
@@ -173,6 +180,8 @@ p {
     width: 500px;
     transform: skewY(-3deg);
     mix-blend-mode: exclusion;
+
+    transform: translateZ(1000px) scale(1);
 }
 
 .x-img {
@@ -184,12 +193,19 @@ p {
     width: auto;
     transform: rotate(-3deg);
     mix-blend-mode: difference;
+
+    transform: translateZ(400px) scale(1);
 }
 
+#section2:hover .poster-text {
+    transform: rotate3d(0, 0, 1, calc(var(--x-translate, 0)*1deg)) rotate3d(0, 1, 0, calc(var(--y-translate, 0)*1deg));
+}
 .iphone {
     position: absolute;
     left: -60px;
     top: 1610px;
+
+    transform: translateZ(400px) scale(1);
 }
 
 .poster-text {
