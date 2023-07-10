@@ -19,6 +19,26 @@ skewItemContainer.addEventListener('mousemove', function (e) {
   console.log('here is my third attempt', yPos);
 });
 
+window.addEventListener('scroll', function() {
+  // console.log('user is scrolling');
+  const yScrollPosition = this.window.scrolltop;
+  console.log(yScrollPosition);
+})
+
+// window.addEventListener('scroll', function() {
+//   let scrollPosition = window.pageYOffset;
+//   if (scrollPosition >= 30) {
+//     headerContainer.classList.add('lg:bg-green-lightest');
+//   } else {
+//     headerContainer.classList.remove('lg:bg-green-lightest');
+//   }
+// });
+
+// window.addEventListener("click", () => {
+//   let value = window.scrollTop;
+//   console.log(value);
+// });
+
 document.getElementById('uView').addEventListener('click', printLocation);
 
 // alway returns 0 because the data is recorder on page load only no update loop
