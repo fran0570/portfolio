@@ -179,6 +179,8 @@ p {
 #promo-item-wrap {
     transform-origin: center center;
     transform-style: preserve-3d;
+
+    margin-top: -20px;
 }
 
 #section1:hover #promo-item-wrap {
@@ -199,6 +201,10 @@ p {
 
     /* background-size: cover; */
     transform: translateZ(200px) scale(1);
+
+    margin-left: -100px;
+    margin-top: -20px;
+    margin-bottom: -20px;
 }
 
 .title-bar-code, .title-bar-graph {
@@ -207,6 +213,22 @@ p {
 
     /* background-size: cover; */
     transform: translateZ(400px) scale(1);
+
+    margin-right: -100px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.service-web, .service-media {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.service-coding, .service-graph {
+    position: absolute;
+    top: 100px;
+    right: 100px;
 }
 
 .maggy-img {
@@ -231,6 +253,7 @@ p {
 
     transform: translateZ(400px) scale(1);
 }
+
 
 #section2:hover .poster-text {
     transform: rotate3d(0, 0, 1, calc(var(--x-translate, 0)*1deg)) rotate3d(0, 1, 0, calc(var(--y-translate, 0)*1deg));
