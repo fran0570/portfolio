@@ -1,17 +1,25 @@
 // 3d parallax fx
 
+// Element that we apply effect to
 const skewItemContainer = document.querySelector(':root');
+
 const skewItem = document.querySelector('#promo-item-wrap').getBoundingClientRect();
 const imageCenterX = skewItem.left + skewItem.width / 2;
 const imageCenterY = skewItem.top + skewItem.height / 2;
 
-// for mouse move
+// On mouse move
+// element.addEventListener(event, function, useCapture);
+// The first parameter is the type of the event (like "click" or "mousedown" or any other HTML DOM Event.)
+// The second parameter is the function we want to call when the event occurs.
+// The third parameter is a boolean value specifying whether to use event bubbling or event capturing. This parameter is optional.
 skewItemContainer.addEventListener('mousemove', function (e) {
   const clientX = e.clientX;
   const clientY = e.clientY;
   const xCalculation = (clientX - imageCenterX) * 0.01;
   const yCalculation = (clientY - imageCenterY) * 0.01;
 
+  // CSSStyleDeclaration: setProperty() method
+  // setProperty(propertyName, value, priority)
   skewItemContainer.style.setProperty('--x-translate', `${xCalculation}`);
   skewItemContainer.style.setProperty('--y-translate', `${yCalculation}`);
   // console.log(xCalculation, yCalculation);

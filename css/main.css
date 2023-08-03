@@ -176,6 +176,10 @@ p {
     }
 } */
 
+
+/* ********************************************** */
+			/* 3d Parallax Effect */
+/* ********************************************** */
 #promo-item-wrap {
     transform-origin: center center;
     transform-style: preserve-3d;
@@ -183,16 +187,25 @@ p {
     margin-top: -20px;
 }
 
-#section1:hover #promo-item-wrap {
-    transform: rotate3d(0, 1, 0, calc(var(--x-translate, 0)*1deg)) rotate3d(1, 0, 0, calc(var(--y-translate, 0)*1deg));
+#section1:hover .title-bar-web {
+    transform: rotate3d(0, 1, 0, calc(var(--x-translate, 0)*13deg)) rotate3d(1, 0, 0, calc(var(--y-translate, 0)*13deg));
+}
+#section1:hover .title-bar-code {
+    transform: rotate3d(1, 0, 0, calc(var(--x-translate, 0)*13deg)) rotate3d(0, 1, 0, calc(var(--y-translate, 0)*13deg));
+}
+#section1:hover .title-bar-media {
+    transform: rotate3d(0, 1, 0, calc(var(--x-translate, 0)*13deg)) rotate3d(1, 0, 0, calc(var(--y-translate, 0)*13deg));
+}
+#section1:hover .title-bar-graph {
+    transform: rotate3d(1, 0, 0, calc(var(--x-translate, 0)*13deg)) rotate3d(0, 1, 0, calc(var(--y-translate, 0)*13deg));
 }
 
 #section1:hover .maggy-img {
-    transform: rotate3d(0, -1, 0, calc(var(--x-translate, 0)*2deg)) rotate3d(1, 0, 0, calc(var(--y-translate, 0)*2deg));
+    transform: rotate3d(0, -1, 0, calc(var(--x-translate, 0)*7deg)) rotate3d(1, 0, 0, calc(var(--y-translate, 0)*7deg));
 }
 
 #section1:hover .x-img {
-    transform: rotate3d(0, 0, 1, calc(var(--x-translate, 0)*1deg)) rotate3d(0, 1, 0, calc(var(--y-translate, 0)*1deg));
+    transform: rotate3d(0, 1, 0, calc(var(--x-translate, 0)*9deg)) rotate3d(1, 0, 0, calc(var(--y-translate, 0)*9deg));
 }
 
 .title-bar-web, .title-bar-media {
