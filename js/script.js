@@ -1,6 +1,6 @@
 // 3d parallax fx
 
-// Element that we apply effect to
+// Fetching the element that we apply effect to aka custom properties --x-translate and --y-translate from the css :root
 const skewItemContainer = document.querySelector(':root');
 
 const skewItem = document.querySelector('#promo-item-wrap').getBoundingClientRect();
